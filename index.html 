@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Chart repo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Everything work</h1>
+    <p>just add this url to your helm repository list with the command:</p>
+    <code>helm repo add https://melvi-l.github.io/charts-repository/</code>
+</body>
+</html>
