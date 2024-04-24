@@ -3,7 +3,7 @@ entries:
   assignement:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-24T19:53:38.826877396+02:00"
+    created: "2024-04-24T22:49:18.855548379+02:00"
     dependencies:
     - name: tomcat
       repository: https://charts.bitnami.com/bitnami
@@ -15,4 +15,19 @@ entries:
     urls:
     - assignement-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-24T19:53:38.822002672+02:00"
+  coupon-service:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-04-24T22:49:18.862796558+02:00"
+    dependencies:
+    - name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: ^10.x.x
+    description: A Helm chart for Kubernetes
+    digest: 4091636fe6756615d4632fad0ec87c5d8137401b62d6054cc2f606297b6c98d9
+    name: coupon-service
+    type: application
+    urls:
+    - coupon-service-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-04-24T22:49:18.85075857+02:00"
